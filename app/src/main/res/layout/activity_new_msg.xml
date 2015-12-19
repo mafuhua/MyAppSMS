@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaa"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收件人："
+            />
+
+        <!-- android:completionThreshold="1"  建议框显示出来时，用户必须输入的字符的个数-->
+        <AutoCompleteTextView
+            android:id="@+id/actv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/et_input_bg"
+            android:completionThreshold="1"
+            android:hint="输入号码"
+            />
+
+        <ImageView
+            android:id="@+id/iv_select_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select_contact_bg"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_input_msg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top|left"
+        android:hint="请输入内容"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_common_bg"
+        android:onClick="sendMsg"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="发送信息"
+        />
+
+</LinearLayout>

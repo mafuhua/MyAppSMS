@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My AppSMS</string>
+
+    <string name="app_label">管理搜索框</string>
+    <string name="search_hint">请输入内容</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">新建群组</string>
+    <string name="title_activity_conversation_ui">ConversationUI</string>
+    <string name="title_activity_folder_ui">FolderUI</string>
+    <string name="title_activity_group_ui">GroupUI</string>
+    <string name="title_activity_conversation_detail">ConversationDetailActivity</string>
+    <string name="title_activity_new_msg">NewMsgActivity</string>
+    <string name="title_activity_folder_detail">FolderDetailActivity</string>
+    <string name="title_activity_searchable">SearchableActivity</string>
+</resources>
